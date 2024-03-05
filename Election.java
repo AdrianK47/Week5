@@ -45,8 +45,8 @@ public class Election{
         int totalVotes = nyVotes + njVotes + cVotes;
         int totalVotes2 = nyVotes2 + njVotes2 + cVotes2;
         int realTotal = totalVotes + totalVotes2;
-        double percentVotes = totalVotes / realTotal;
-        double percentVotes2 = totalVotes2 / realTotal;
+        double percentVotes = (totalVotes * 1.00) / realTotal;
+        double percentVotes2 = (totalVotes2 * 1.00) / realTotal;
 
         System.out.println(percentVotes);
 
